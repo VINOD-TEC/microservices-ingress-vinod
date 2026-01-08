@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKER_HUB_REPO = 'vinodpa/techsolutions-app'
-        K8S_CLUSTER_NAME = 'kastro-cluster'
+        K8S_CLUSTER_NAME = 'vin-cluster'
         AWS_REGION = 'us-west-2'
         NAMESPACE = 'default'
         APP_NAME = 'techsolutions'
